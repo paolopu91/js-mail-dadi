@@ -23,9 +23,9 @@ for(let i=0; i<dataBaseMail.length; i++){
 
     //Creiamo la prima condizione se la nostra mail è presente nell'archivio
     //Subito sotto creiamo invece la condizione se la nostra mail non è presente nell'archivio
-    if(emailUtente !== dataBaseMail[i]){
+    if(emailUtente != dataBaseMail[i]){
         emailTrovata = i;
-        console.log("La sua mail " +emailUtente + " non è presente nel nostro archivio" )
+        console.log("La sua mail " + emailUtente + +emailTrovata+ " non è presente nel nostro archivio" )
         
      }else{
          emailTrovata = i;
