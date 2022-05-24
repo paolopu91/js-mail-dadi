@@ -29,7 +29,7 @@ humanPlayer.addEventListener("click", function() {
     console.log ("Pulsante play cliccato");
 
     console.log("PlayerNumber");
-for(i = 1; i<numeriCasualiPlayer.length; i++){
+for( let i = 1; i<numeriCasualiPlayer.length; i++){
     
     // creo le mie variabili per avere numeri casuali
     let randomPlayer = Math.floor(Math.random () * numeriCasualiPlayer.length);
